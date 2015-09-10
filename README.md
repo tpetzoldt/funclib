@@ -13,7 +13,7 @@ created by a student project with more recent techniques.
 * extend the set of functions, including numerically solved
   differential equations
 
-Maintainer: Thomas.Petzold@tu-dresden.de
+Maintainer: Thomas.Petzoldt@tu-dresden.de
 
 http://tu-dresden.de/Members/thomas.petzoldt
 
