@@ -1,2 +1,19 @@
 # funclib
-Library of Commonly Used Functions in Ecology
+
+## Library of Commonly Used Functions in Ecology
+
+This project aims to re-implement a small function library
+created by a student project with more recent techniques.
+
+## Ideas
+
+* make use of the R package **shiny** for an interactive web interface,
+* integrate parameter fitting capabilities
+* make it an R package
+* extend the set of functions, including numerically solved
+  differential equations
+
+Maintainer: Thomas.Petzold@tu-dresden.de
+
+http://tu-dresden.de/Members/thomas.petzoldt
+
