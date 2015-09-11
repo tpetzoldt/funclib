@@ -1,8 +1,3 @@
-#-->Von Lars<--
-
-rm(list=ls())  
-
-
 #======================================================================
 # Function type library
 #   function examples for biologists
@@ -11,7 +6,7 @@ rm(list=ls())
 #  R-version 1.2.0 (compiled on Linux Suse 7.0)
 #
 #  Thomas Petzoldt & Susanne Worischka
-#  petzoldt@rcs.urz.tu-dresden.de
+#  thomas.petzoldt@tu-dresden.de
 #
 # NO WARRANTY! May be distributed under GPL 2.0
 #======================================================================
@@ -21,7 +16,7 @@ rm(list=ls())
 #----------------------------------------------------------------------
 
 lang <- "de"            # language selection: de or en 
-creategraphics <- FALSE  # TRUE: create new graphics files
+creategraphics <- TRUE  # TRUE: create new graphics files
 nographics     <- FALSE # TRUE: textonly version for correcting text
 if (lang=="de") {
   pagetitle <-   "Funktionstypenbibliothek"
@@ -180,7 +175,7 @@ plotit <- function (aFunction,  x,  miny=-Inf,  maxy=+Inf, legpos=0) {
             # plot title and legend
             title(main=formula)
             # title(main=paste(name,"\n", formula))
-            if (legpos == 0) {
+            if (legpos[1] == 0) {
             	legend(x = min(x)+(max(x)*0.05), y = ymax, legend=leg, col=col, lwd=2) 
 	    } else {
             	legend(x = legpos[1], y = legpos[2], legend=leg, col=col, lwd=2) 
@@ -255,7 +250,7 @@ expdecay2 <- list(
   c    = c(2, 0),
   d    = c(-0.5, -1),
   comment.de = c("Elimination von Fremdstoffen aus Organismen, Konzentration als Funktion der Zeit, 2-Kompartiment-Modell"),
-  comment.en = c("elimination of foreign substances from organisms, concentration as a function of time (two compartment model)"),
+  comment.en = c("elimination of foreign substances from organisms, concentration as a function of time (two compartment model)")
 )
 
 ### 2. Potenzunktionen ###
@@ -769,7 +764,7 @@ step <- list(
                "xc = critical fish density for the inductio of DVM",
                "z = abruptness of the response",
                "for more details see <b>Ramos-Jiliberto, R. &amp; Gonzalez-Olivares, E. (2000)</b>: Relating behavior to population dynamics: a predator-prey metaphysiological model emphasizing zooplakton diel vertical migration as an inducible response. Ecological modelling 127:221-233.",
-               "and <b>Getz, W. M. (1996)</b>: A hypothesis regarding the abruptness of density dependence and the groth rate of populations. Ecology 77: 2014-2026."),
+               "and <b>Getz, W. M. (1996)</b>: A hypothesis regarding the abruptness of density dependence and the groth rate of populations. Ecology 77: 2014-2026.")
 )
 
 
