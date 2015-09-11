@@ -2,8 +2,9 @@
 # Function type library
 #   function examples for biologists
 #   version alpha-1, Mar 06/2001
+#   small fixes by thpe 2015-09-11
 #   
-#  R-version 1.2.0 (compiled on Linux Suse 7.0)
+#  R-version 1.2.0 - 3.2.2
 #
 #  Thomas Petzoldt & Susanne Worischka
 #  thomas.petzoldt@tu-dresden.de
