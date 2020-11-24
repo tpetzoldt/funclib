@@ -2,7 +2,7 @@
 
 ## Library of Commonly Used Functions in Ecology
 
-This project aims to re-implement a small function library
+This project aimed to re-implement a small function library
 created by a student project with more recent techniques.
 
 ## Ideas
@@ -17,3 +17,4 @@ Maintainer: Thomas.Petzoldt@tu-dresden.de
 
 http://tu-dresden.de/Members/thomas.petzoldt
 
+The package is archived and will not be further developed.
